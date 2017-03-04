@@ -1,5 +1,7 @@
 # docker-clean-tools
-Tiny python scripts to clean images and containers
+Tiny python scripts to clean images and containers, which deletes:
+* stopped containers
+* dangling images (the garbage ones)
 
 ## Commands:
 * clean containers: ```$ python clean_containers.py```
